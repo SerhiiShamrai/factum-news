@@ -112,6 +112,9 @@ body {
     width: 100%;
     margin-bottom: 15px;
   }
+  .news p {
+    margin: 10px 0;
+  }
 }
 
 @media (max-width: 660px) {
