@@ -101,11 +101,21 @@ body {
   margin-bottom: 0;
 }
 
-.slider-line {
+/*.slider-line {
   position: relative;
+}*/
+
+.big-news-buttons {
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-@media (max-width: 769px) {
+button {
+    width: 400px;
+    height: 80px;
+}
+
+@media (max-width: 840px) {
   .header h1 {
     font-size: 25px;
   }
@@ -120,16 +130,28 @@ body {
   .news p {
     margin: 10px 0;
   }
+  button {
+      width: 300px;
+      height: 80px;
+  }
 }
 
 @media (max-width: 660px) {
   .header-inner {
     flex-direction: column;
   }
+    button {
+        width: 250px;
+        height: 60px;
+    }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 530px) {
   .header a {
     font-size: 15px;
   }
+    button {
+        width: 150px;
+        height: 40px;
+    }
 }
